@@ -1,0 +1,57 @@
+body {
+  font-family: Times New Roman, sans-serif;
+  background-color: #A5A2AA;
+  margin: 0;
+  padding: 0;
+}
+ 
+{
+  font-family: Times New Roman, sans-serif;
+  background-color: #f4f4f4;
+  margin: 50;
+  padding: 40;
+}
+
+form, div {
+  margin: 10% 10%;
+}
+
+label, input[type="text"], input[type="date"], input[type="button"], input[type="file"],input[type="email"] {
+  display: block;
+  border: medio;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+input[type="button"], input[type="file"] {
+  background-color: #F0E61D;
+  color: white;
+  border: medio;
+  padding: 2%;
+  cursor: wait;
+}
+
+input[type="button"]:hover {
+  background-color: #7a0dc4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5%;
+  text-align: left;
+}
+
+th {
+  background-color: #9A10F9;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
